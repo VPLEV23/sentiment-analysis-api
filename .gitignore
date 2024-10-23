@@ -1,0 +1,48 @@
+# Ignore data files
+data/
+!data/.gitkeep
+
+# Ignore models
+models/
+!models/.gitkeep
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore environment variables file
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.so
+*.dylib
+
+# Ignore Docker files
+docker/.dockerignore
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+
+# Ignore pytest cache
+.cache/
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+mlruns/
